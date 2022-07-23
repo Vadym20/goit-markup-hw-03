@@ -71,13 +71,7 @@ img {
   align-items: center;
 }
 
-.header-logo {
-  display: block;
-
-  margin-top: 25px;
-  margin-bottom: 25px;
-  text-align: center;
-
+.logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
