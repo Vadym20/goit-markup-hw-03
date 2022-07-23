@@ -89,7 +89,7 @@ img {
 
 .header-nav {
   display: flex;
-  margin-right: auto;
+  margin-left: auto;
 
   align-items: center;
   margin-right: auto;
@@ -108,9 +108,8 @@ img {
   text-decoration: none;
 }
 
-.header-link,
-.header-list {
-  display: flex;
+.header-link {
+  display: block;
   padding: 32px 0;
 
   font-weight: 500;
