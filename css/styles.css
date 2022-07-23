@@ -370,9 +370,9 @@ img {
 }
 .footer-logo {
   display: block;
-  margin-left: 75px;
-  padding-top: 60px;
+
   margin-bottom: 20px;
+
   font-family: 'Raleway';
 
   font-weight: 700;
@@ -384,8 +384,6 @@ img {
 }
 
 .link {
-  margin-left: 75px;
-  margin-bottom: 60px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -399,8 +397,6 @@ img {
 }
 
 .contact-list .link {
-  margin-left: 75px;
-  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
