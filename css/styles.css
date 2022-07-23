@@ -147,15 +147,13 @@ img {
 
   text-align: center;
 }
-.hero .container {
-  width: 696px;
-}
+
 .hero-title {
+  width: 696px;
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
-  padding-left: auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -255,11 +253,10 @@ img {
 .feauters-list {
   display: flex;
   align-items: center;
-  margin: -15px;
+  gap: 30px;
 }
 
 .feauter-item {
-  margin: 15px;
   flex-basis: calc(100% / 4 -30px);
 }
 .visually-hidden {
@@ -363,6 +360,7 @@ img {
 }
 /*-----------------------FOOTER--------------------*/
 .footer {
+  display: flex;
   background-color: var(--secondary-bgc);
 }
 
