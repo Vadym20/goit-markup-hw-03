@@ -244,6 +244,10 @@ img {
   border-top: 0;
 }
 .portfolio-title {
+  margin-top: 20px;
+
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -253,6 +257,9 @@ img {
 }
 
 .portfolio-type {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -408,8 +415,8 @@ img {
   text-decoration: none;
 }
 
-.address-link {
-  margin-top: 20px;
+.footer-address {
+  padding-top: 20px;
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
@@ -428,8 +435,9 @@ img {
   display: block;
   padding-bottom: 60px;
 }
+
 .footer-mail {
-  margin-bottom: 60px;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
@@ -439,7 +447,7 @@ img {
   text-decoration: none;
 }
 .footer-tel {
-  margin-bottom: 9px;
+  margin-bottom: 60px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
