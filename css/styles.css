@@ -185,6 +185,18 @@ img {
 .header-btn:focus {
   background-color: var(--accent-color);
 }
+
+/*------- Портфолио -------*/
+.page-sections {
+  padding-top: 94px;
+}
+.btn-list {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
 .portfolio-btn {
   padding: 6px 22px;
   border-radius: 4px;
@@ -217,13 +229,21 @@ img {
 }
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
 
   background: var(--primary-bgc);
-  border: 1px solid var(--background-project-list);
-  width: 370px;
-  box-sizing: border-box;
 }
-.portfolio-list-title {
+.portfolio-item {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+.portfolio-box {
+  padding: 20px 24px;
+  border: 1px solid var(--background-project-list);
+  border-top: 0;
+}
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -338,6 +358,11 @@ img {
 
   text-align: center;
 }
+.team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .team-item-title {
   margin-top: 19px;
   margin-left: auto;
@@ -361,7 +386,6 @@ img {
 }
 /*-----------------------FOOTER--------------------*/
 .footer {
-  display: flex;
   background-color: var(--secondary-bgc);
 }
 
@@ -371,6 +395,7 @@ img {
 .footer-logo {
   display: block;
 
+  padding-top: 60px;
   margin-bottom: 20px;
 
   font-family: 'Raleway';
@@ -383,20 +408,38 @@ img {
   text-decoration: none;
 }
 
-.link-address {
+.address-link {
+  margin-top: 20px;
+  margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   font-style: normal;
   color: var(--white-text-color);
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--select-color);
 }
 
-.contact-list .link {
+.contact-list {
+  display: block;
+  padding-bottom: 60px;
+}
+.footer-mail {
+  margin-bottom: 60px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+.footer-tel {
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
