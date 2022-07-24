@@ -244,10 +244,6 @@ img {
   border-top: 0;
 }
 .portfolio-title {
-  margin-top: 20px;
-
-  margin-bottom: 4px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -257,9 +253,6 @@ img {
 }
 
 .portfolio-type {
-  margin-top: 0;
-  margin-bottom: 0;
-
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -427,6 +420,10 @@ img {
   font-style: normal;
   color: var(--white-text-color);
   text-decoration: none;
+}
+.address-link {
+  text-decoration: none;
+  color: inherit;
 }
 .address-link:hover,
 .address-link:focus {
