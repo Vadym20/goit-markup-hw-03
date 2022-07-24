@@ -419,6 +419,7 @@ img {
 }
 .footer-address {
   margin-bottom: 9px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -434,7 +435,6 @@ img {
 
 .contact-list {
   display: block;
-  padding-bottom: 60px;
 }
 .footer-item {
   margin-bottom: 9px;
@@ -450,7 +450,6 @@ img {
   text-decoration: none;
 }
 .footer-tel {
-  margin-bottom: 60px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
