@@ -393,6 +393,7 @@ img {
 }
 /*-----------------------FOOTER--------------------*/
 .footer {
+  padding: 60px 0;
   background-color: var(--secondary-bgc);
 }
 
@@ -402,11 +403,10 @@ img {
 .footer-logo {
   display: block;
 
-  padding-top: 60px;
   margin-bottom: 20px;
 
   font-family: 'Raleway';
-
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -414,9 +414,10 @@ img {
   color: var(--select-color);
   text-decoration: none;
 }
-
+.footer-item {
+  margin-bottom: 9px;
+}
 .footer-address {
-  padding-top: 20px;
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
@@ -435,7 +436,9 @@ img {
   display: block;
   padding-bottom: 60px;
 }
-
+.footer-item {
+  margin-bottom: 9px;
+}
 .footer-mail {
   margin-bottom: 9px;
   font-style: normal;
